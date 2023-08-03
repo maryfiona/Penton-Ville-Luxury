@@ -1,40 +1,90 @@
-/* Reset some default styles to ensure consistent rendering */
-body,
-h1,
-h2,
-h3,
-p,
-ul,
-li {
-    margin: 0;
-    padding: 0;
+body{
+    overflow-x: hidden;
+
 }
 
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f1f1f1;
+
+
+.phone{
+    position: relative;
+    top: 2em;
+    left: 3em;
+   color: navy;
+
+}
+.message{
+    position: relative;
+    bottom: 8.5em;
+    left: 17em;
+}
+.envelope{
+    position: relative;
+    left: 7em;
+    font-size: 2em;
+    bottom: 3em;
+   color: navy;
+
+}
+.lite{
+    list-style: none;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
+.light{
+    position: relative;
+    left: 2em;
+    bottom: 1.5em;
+    color: orangered;
+    list-style: none;
 }
+.folow{
+    position: relative;
+    left: 32em;
+    bottom: 15em;
+}
+    
+.drop{
+    position: relative;
+    left: 5em;
 
+}
+.side-line {
+    border-left: 2px solid #333; /* You can change the color and width as desired */
+    height: 40px; /* Adjust the height of the line based on your design */
+    margin: 10px 0; /* Add some space around the line */
+    position: relative;
+    left: 8em;
+    bottom: 3.5em;
+  }
+  .em{
+    text-decoration: none;
+  }
+  .line{
+    border-left: 2px solid #333; /* You can change the color and width as desired */
+    height: 40px; /* Adjust the height of the line based on your design */
+    margin: 10px 0; /* Add some space around the line */
+    position: relative;
+    left: 31em;
+    bottom: 12em;
+  
+  }
+  
 nav {
-    background-color: #444;
+   background: linear-gradient(-45deg,#095b94 65% ,#2e2e30   35%);
+   box-sizing: border-box;
     color: #fff;
     padding: 10px;
+    position: relative;
+    bottom: 16em;
+    
+    
 }
+
 
 nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
 }
-
 nav li {
     margin: 0 10px;
 }
@@ -43,46 +93,19 @@ nav a {
     color: #fff;
     text-decoration: none;
 }
+/* Add your existing navigation styles here */
 
-main {
-    padding: 20px;
-}
-
-section {
-    margin-bottom: 20px;
-}
-
-h2 {
-    color: #333;
-    border-bottom: 2px solid #333;
-    padding-bottom: 5px;
-    margin-bottom: 10px;
-}
-
-.project {
-    background-color: #f9f9f9;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-
-footer {
-    background-color: #555;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-}
-
-footer ul {
-    list-style: none;
-}
-
-footer li {
-    display: inline;
-    margin-right: 10px;
-}
-
-footer a {
-    color: #fff;
+/* Set the default background color for navigation links */
+nav li a {
+    
     text-decoration: none;
-}
+  }
+  
+  /* Style the background color when the link is active (clicked) */
+  nav li.active {
+    background-color: #fff;
+    padding: 10px 20px; /* Adjust the padding as needed */
+ 
+    height: auto;
+  }
+  
